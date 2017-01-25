@@ -1,0 +1,11 @@
+{application, 'erlchakra',
+ [{description, "Erlang binding for ChakraCore"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []}
+ ]}.
